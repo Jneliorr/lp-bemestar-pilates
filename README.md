@@ -57,3 +57,7 @@ A hospedagem Sites permanece privada por padrão. A visibilidade do repositório
 `npm run check` confere sintaxe, arquivos locais, âncoras, IDs únicos, descrições e dimensões de imagens, links externos, mensagens reais do WhatsApp e ausência de informações institucionais pendentes. `npm run build` gera o pacote estático.
 
 Na atualização da logo, o cabeçalho foi conferido no navegador em desktop e em viewport móvel de 390 × 844, com imagens carregadas, proporção preservada e sem transbordamento horizontal. A logo também está aplicada no rodapé e na página de privacidade. O PNG foi verificado com canal alpha transparente.
+
+## Vídeo de apresentação
+
+[Vídeo em MP4](media/apresentacao-bem-estar-pilates.mp4), com 45 segundos em Full HD, capturas reais do site em desktop e celular, títulos em português e trilha instrumental original sintetizada. Roteiro e reprodução em [media/README.md](media/README.md); montagem em `scripts/criar-video-site.py`.
