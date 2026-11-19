@@ -28,6 +28,13 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.reveal.is-pending{opacity:1;transform:none}.button:hover,.instagram-post:hover,.floating-contact:hover{transform:none}}
 
 /* Keep the editorial scale readable at every breakpoint. */
+.brand-logo{display:block;width:170px;height:103px;object-fit:contain;object-position:left center}
+.header-inner{height:124px}
+.footer-brand .brand-logo{width:190px;height:115px}
+html{scroll-padding-top:140px}
+@media(max-width:1150px){.brand-logo{width:154px;height:93px}.header-inner{height:112px}html{scroll-padding-top:128px}}
+@media(max-width:900px){.brand-logo{width:142px;height:86px}.header-inner{height:104px}.nav{top:104px;height:calc(100dvh - 104px)}html{scroll-padding-top:120px}}
+@media(max-width:620px){.brand-logo{width:132px;height:80px}.header-inner{height:98px}.nav{top:98px;height:calc(100dvh - 98px)}.footer-brand .brand-logo{width:164px;height:99px}html{scroll-padding-top:114px}}
 .hero-description,.essence-bottom,.pilates-copy p:not(.eyebrow),.section-heading>p,.benefits-grid p,.audience li,.steps p,.professional-copy>p:not(.eyebrow):not(.professional-role),.mind-copy p,.faq-grid>div>p:not(.eyebrow),.faq details p,.contact-cta>p,.contact address{font-size:1rem}
 .eyebrow,.hero-copy .eyebrow,.pilates-copy .eyebrow,.section-heading .eyebrow,.contact .eyebrow,.visual-pause .eyebrow{font-size:.875rem;letter-spacing:.08em}
 .discover,.hero-visual figcaption,.hero-seal,.vertical-note,.movement-band small,.pilates-art>span,.benefit-tag,.portrait figcaption,.post-kicker,.post-link,.contact-label,.back-top,.image-credit,.footer-bottom{font-size:.75rem}

@@ -36,7 +36,7 @@ Prévia em http://localhost:4173. Publicação estática em `dist/`.
 - O segundo contato foi recebido como `9773381-58`. Não foi corrigido por suposição e não está publicado.
 - Idade, tempo de formação e vínculo municipal pertencem a uma postagem sem data confirmada. Foram omitidos para evitar informação desatualizada.
 - O Instagram e os dois posts não puderam ser inspecionados. As cores são as fornecidas pelo cliente, não uma paleta extraída do perfil. Os posts aparecem apenas como links oficiais; suas imagens e assuntos não foram inventados.
-- Logotipo oficial não fornecido. A assinatura tipográfica é uma proposta visual, não uma reprodução de logo oficial.
+- Logotipo fornecido pelo cliente e aplicado no cabeçalho, no rodapé, na página de privacidade e no ícone do navegador. O fundo foi removido com a ferramenta nativa ImageGen, gerando PNG com transparência. O tamanho do cabeçalho foi ajustado para acomodar a assinatura completa.
 - Apenas o retrato da Débora é fotografia oficial fornecida. A imagem de Pilates é ilustrativa gerada por IA, identificada na página; não representa o studio, seus equipamentos ou pacientes reais.
 - Não há horários, preços, CREFITO, avaliações, número de alunos, estrutura física ou especialidades adicionais confirmados. A atuação pediátrica mencionada não foi transformada em serviço oferecido no studio.
 - O briefing menciona 15 seções, mas não inclui a lista original nem especificações técnicas restantes. Foi proposta uma arquitetura de 15 blocos, descrita no prompt adaptado.
@@ -56,4 +56,4 @@ A hospedagem Sites permanece privada por padrão. A visibilidade do repositório
 
 `npm run check` confere sintaxe, arquivos locais, âncoras, IDs únicos, descrições e dimensões de imagens, links externos, mensagens reais do WhatsApp e ausência de informações institucionais pendentes. `npm run build` gera o pacote estático.
 
-O controle do navegador foi interrompido pelo ambiente porque não conseguiu identificar com segurança a URL do navegador Windows. A inspeção visual e as interações em desktop/celular não foram verificadas nesta execução. Os breakpoints estão implementados em CSS; os testes estáticos não substituem a verificação visual.
+Na atualização da logo, o cabeçalho foi conferido no navegador em desktop e em viewport móvel de 390 × 844, com imagens carregadas, proporção preservada e sem transbordamento horizontal. A logo também está aplicada no rodapé e na página de privacidade. O PNG foi verificado com canal alpha transparente.

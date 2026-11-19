@@ -27,7 +27,7 @@ Apresentar o studio, explicar o Pilates e seus objetivos, valorizar o cuidado co
 
 ### Fotografias e fidelidade
 
-Tente inspecionar o Instagram, mas não dependa dele para concluir o projeto. Não invente o assunto ou a imagem dos posts inacessíveis. Ofereça links diretos para os dois destaques. Quando não houver fotos oficiais do ambiente ou das aulas, use imagem demonstrativa claramente identificada. Não apresente espaço, equipamentos, pacientes ou pessoas gerados como pertencentes à empresa. Sem logo oficial, proponha uma assinatura tipográfica sem afirmar que é o logotipo existente.
+Tente inspecionar o Instagram, mas não dependa dele para concluir o projeto. Não invente o assunto ou a imagem dos posts inacessíveis. Ofereça links diretos para os dois destaques. Quando não houver fotos oficiais do ambiente ou das aulas, use imagem demonstrativa claramente identificada. Não apresente espaço, equipamentos, pacientes ou pessoas gerados como pertencentes à empresa. Use o logotipo fornecido “Bem Estar — Studio de Pilates”, removendo o fundo e preservando a composição, o símbolo e a identidade. Aplique a versão transparente no cabeçalho e no rodapé, com escala responsiva.
 
 ### Saúde e integridade
 

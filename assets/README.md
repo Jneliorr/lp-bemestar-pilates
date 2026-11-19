@@ -3,7 +3,11 @@
 - `debora-dos-santos.png`: retrato oficial fornecido pelo cliente, sem edição do arquivo original. O enquadramento é aplicado apenas pelo CSS.
 - `pilates-ilustrativo.png`: imagem demonstrativa criada com a ferramenta nativa ImageGen. Não representa a Bem Estar, Débora, alunos, instalações ou equipamentos reais. As duas utilizações na página estão identificadas.
 - Fontes locais: Cormorant Garamond (normal e itálico) e Space Grotesk, copiadas da referência Koisei fornecida. Licenças SIL Open Font License acompanham os arquivos.
-- `favicon.svg` e assinatura visual do cabeçalho: proposta gráfica vetorial, não logotipo oficial existente.
+- `logo-bem-estar-transparente.png`: logo fornecida pelo cliente, com remoção do fundo pela ferramenta nativa ImageGen. PNG com canal alpha real; utilizado no cabeçalho, rodapé, privacidade e ícone do navegador. A versão original da marca substitui a assinatura provisória.
+
+## Prompt final do tratamento da logo
+
+Background-extraction edit of the attached existing logo, not a redesign. Return a pristine flat graphic on true transparent alpha. Keep EXACTLY the existing shapes, arrangement, rounded letterforms and text 'Bem Estar' and 'STUDIO DE PILATES', and the Pilates woman silhouette and open circular strokes. Remove ONLY the pale lavender-white background. The foreground has two clean, uniform, muted colors: pale turquoise approximately #68BDCD for the emblem and subtitle, and neutral medium-light gray approximately #A4A4A7 for Bem Estar. Match the reference colors visually. Absolutely NO saturated cyan, NO black outlines, NO blue fringes, NO speckles, NO distressed texture, NO scattered pixels, NO noise, NO glow, NO shadows. All empty areas including inside the ring and counters of letters must be perfectly transparent. The silhouette and letters should have smooth, clean antialiased contours with flat solid fills. Preserve original proportions, no added or missing lettering. Tight crop with 20px transparent padding. High-quality transparent PNG for a small website header.
 
 ## Prompt final da imagem
 
