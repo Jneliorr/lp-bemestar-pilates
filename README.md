@@ -46,6 +46,14 @@ Prévia em http://localhost:4173. Publicação estática em `dist/`.
 
 Sem cookies de rastreamento, analytics, embeds de redes sociais ou coleta de dados em servidor. WhatsApp, Instagram e mapas são abertos apenas quando o visitante clica. As fontes são servidas localmente. A página de privacidade detalha esses fluxos.
 
-## GitHub
+## GitHub e hospedagem
 
-Repositório desejado: `Jneliorr/lp-bemstar-pilates`. A integração instalada não oferece criação de repositórios e o Git local não dispõe de credenciais. A criação/push dependem da disponibilização desse repositório e acesso autenticado. Não interpretar commits locais como push realizado.
+Repositório: https://github.com/Jneliorr/lp-bemestar-pilates. Criado pelo cliente; o envio dos arquivos e dados comerciais ao repositório público foi expressamente autorizado. O projeto utiliza commits e pushes em marcos concluídos.
+
+A hospedagem Sites permanece privada por padrão. A visibilidade do repositório não altera automaticamente a audiência da hospedagem.
+
+## Verificação
+
+`npm run check` confere sintaxe, arquivos locais, âncoras, IDs únicos, descrições e dimensões de imagens, links externos, mensagens reais do WhatsApp e ausência de informações institucionais pendentes. `npm run build` gera o pacote estático.
+
+O controle do navegador foi interrompido pelo ambiente porque não conseguiu identificar com segurança a URL do navegador Windows. A inspeção visual e as interações em desktop/celular não foram verificadas nesta execução. Os breakpoints estão implementados em CSS; os testes estáticos não substituem a verificação visual.

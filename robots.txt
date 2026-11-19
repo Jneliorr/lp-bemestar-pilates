@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bem-estar-pilates-itaborai.jneliorr.chatgpt.site/sitemap.xml
