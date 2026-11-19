@@ -2,6 +2,7 @@ node_modules/
 dist/
 .sites-local/
 output/
+outputs/
 *.zip
 .env
 .env.*
