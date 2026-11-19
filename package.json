@@ -1,0 +1,13 @@
+{
+  "name": "bem-estar-pilates",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page da Bem Estar Fisio Pilates em Itaboraí/RJ",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node scripts/check.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

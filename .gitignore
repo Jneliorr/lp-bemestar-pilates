@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.sites-local/
+output/
+*.zip
+.env
+.env.*
+!.env.example
+koisei-design-system/
+

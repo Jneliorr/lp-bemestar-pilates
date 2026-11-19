@@ -1,0 +1,51 @@
+# Bem Estar Fisio Pilates
+
+Landing page editorial em português, com HTML semântico, CSS e JavaScript sem dependências. Identidade: azul `#05A2E7`, rosa `#C65DA2`, Cormorant Garamond e Space Grotesk da referência Koisei fornecida.
+
+## Executar
+
+Requer Node.js 20 ou superior. Não precisa instalar pacotes.
+
+```sh
+npm run dev
+npm run check
+npm run build
+```
+
+Prévia em http://localhost:4173. Publicação estática em `dist/`.
+
+## Dados e manutenção
+
+- Cores e fontes: `styles.css`.
+- Contatos, Instagram, localização e mensagens do WhatsApp: `config.js`.
+- Conteúdo institucional estático: `index.html`.
+- Briefing adaptado: `PROMPT-BEM-ESTAR.md`.
+
+## Informações confirmadas pelo cliente
+
+- Bem Estar Fisio Pilates / Studio de Pilates Bem Estar.
+- Débora dos Santos, fisioterapeuta e proprietária; foto fornecida pelo cliente.
+- Pilates com foco em qualidade de vida, condicionamento físico e objetivos individuais.
+- Av. 22 de Maio, prédio Helix, torre 1, sala 206, Itaboraí/RJ. Sem número de rua ou CEP confirmado.
+- Contato principal: +55 21 99832-8486.
+- Instagram: https://www.instagram.com/bemestarpilates_fisio/.
+- Frase: “Mente e corpo em completa sintonia”.
+
+## Pendências e critérios editoriais
+
+- O segundo contato foi recebido como `9773381-58`. Não foi corrigido por suposição e não está publicado.
+- Idade, tempo de formação e vínculo municipal pertencem a uma postagem sem data confirmada. Foram omitidos para evitar informação desatualizada.
+- O Instagram e os dois posts não puderam ser inspecionados. As cores são as fornecidas pelo cliente, não uma paleta extraída do perfil. Os posts aparecem apenas como links oficiais; suas imagens e assuntos não foram inventados.
+- Logotipo oficial não fornecido. A assinatura tipográfica é uma proposta visual, não uma reprodução de logo oficial.
+- Apenas o retrato da Débora é fotografia oficial fornecida. A imagem de Pilates é ilustrativa gerada por IA, identificada na página; não representa o studio, seus equipamentos ou pacientes reais.
+- Não há horários, preços, CREFITO, avaliações, número de alunos, estrutura física ou especialidades adicionais confirmados. A atuação pediátrica mencionada não foi transformada em serviço oferecido no studio.
+- O briefing menciona 15 seções, mas não inclui a lista original nem especificações técnicas restantes. Foi proposta uma arquitetura de 15 blocos, descrita no prompt adaptado.
+- Textos de benefícios usam linguagem geral, sem promessa terapêutica ou prescrição. Referência editorial: [NHS — Pilates for beginners](https://www.nhs.uk/live-well/exercise/pilates-and-yoga/pilates-for-beginners/) e [NHS — Be active for your mental health](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/be-active-for-your-mental-health/).
+
+## Privacidade
+
+Sem cookies de rastreamento, analytics, embeds de redes sociais ou coleta de dados em servidor. WhatsApp, Instagram e mapas são abertos apenas quando o visitante clica. As fontes são servidas localmente. A página de privacidade detalha esses fluxos.
+
+## GitHub
+
+Repositório desejado: `Jneliorr/lp-bemstar-pilates`. A integração instalada não oferece criação de repositórios e o Git local não dispõe de credenciais. A criação/push dependem da disponibilização desse repositório e acesso autenticado. Não interpretar commits locais como push realizado.
