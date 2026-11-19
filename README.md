@@ -60,4 +60,4 @@ Na atualização da logo, o cabeçalho foi conferido no navegador em desktop e e
 
 ## Vídeo de apresentação
 
-[Vídeo em MP4](media/apresentacao-bem-estar-pilates.mp4), com 45 segundos em Full HD, capturas reais do site em desktop e celular, títulos em português e trilha instrumental original sintetizada. Roteiro e reprodução em [media/README.md](media/README.md); montagem em `scripts/criar-video-site.py`.
+[Vídeo em MP4, sem endereço na barra do navegador](media/apresentacao-bem-estar-pilates-sem-link.mp4), com 45 segundos em Full HD, capturas reais do site em desktop e celular, títulos em português e trilha instrumental original sintetizada. Roteiro e reprodução em [media/README.md](media/README.md); montagem em `scripts/criar-video-site.py`.

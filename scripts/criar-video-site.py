@@ -58,7 +58,6 @@ def browser(image, source):
     draw.rounded_rectangle((x, y, x+w, y+h), radius=14, fill='#ffffff', outline='#cadfe7', width=1)
     for i, color in enumerate(('#c65da2', '#8dc8dc', '#bfd3db')):
         draw.ellipse((x+22+i*22, y+19, x+31+i*22, y+28), fill=color)
-    text(draw, (x+145,y+13), 'bem-estar-pilates-itaborai.jneliorr.chatgpt.site', 17, MUTED, sans=True)
     shot = Image.open(source).convert('RGB')
     # Remove only browser scrollbar pixels from the recorded image edge.
     shot = shot.crop((0,0,shot.width-16,shot.height))
@@ -176,7 +175,7 @@ def main():
     parser.add_argument('--ffmpeg',type=Path,required=True)
     parser.add_argument('--captures',type=Path,required=True)
     parser.add_argument('--work',type=Path,default=ROOT/'outputs/video-site')
-    parser.add_argument('--output',type=Path,default=ROOT/'media/apresentacao-bem-estar-pilates.mp4')
+    parser.add_argument('--output',type=Path,default=ROOT/'media/apresentacao-bem-estar-pilates-sem-link.mp4')
     args=parser.parse_args()
     args.work.mkdir(parents=True,exist_ok=True)
     args.output.parent.mkdir(parents=True,exist_ok=True)
@@ -197,8 +196,9 @@ def main():
         listing.append("file '"+output.name+"'")
     manifest=args.work/'sequencia.txt'
     manifest.write_text('\n'.join(listing),encoding='utf-8')
-    subprocess.run([str(args.ffmpeg),'-hide_banner','-loglevel','error','-y','-f','concat','-safe','0','-i',str(manifest),'-i',str(music),
-                    '-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','160k','-af','volume=1.8','-movflags','+faststart','-shortest',str(args.output)],check=True)
+    subprocess.run([str(args.ffmpeg.resolve()),'-hide_banner','-loglevel','error','-y','-f','concat','-safe','0','-i',manifest.name,'-i',music.name,
+                    '-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','160k','-af','volume=1.8','-movflags','+faststart','-shortest',str(args.output.resolve())],
+                   cwd=args.work.resolve(),check=True)
     print(f'Vídeo pronto: {args.output.resolve()} ({total}s, 1920x1080, 30fps)',flush=True)
 
 

@@ -1,6 +1,8 @@
 # Apresentação do site
 
-`apresentacao-bem-estar-pilates.mp4`: vídeo horizontal de 45 segundos, Full HD (1920 × 1080), 30 fps, H.264/AAC. Usa capturas reais da landing page publicada, títulos em português, transições suaves e trilha ambiente sintetizada originalmente para esta apresentação. Sem narração.
+`apresentacao-bem-estar-pilates-sem-link.mp4`: versão atual do vídeo, sem exibir o endereço na barra do navegador. Vídeo horizontal de 45 segundos, Full HD (1920 × 1080), 30 fps, H.264/AAC. Usa capturas reais da landing page publicada, títulos em português, transições suaves e trilha ambiente sintetizada originalmente para esta apresentação. Sem narração.
+
+A primeira exportação está preservada em `apresentacao-bem-estar-pilates.mp4`.
 
 Percurso: abertura, identidade visual, essência, Pilates, apresentação de Débora, versão móvel, contato e encerramento. Fotografias de Pilates continuam sendo cenas ilustrativas; o retrato de Débora e a logo foram fornecidos pelo cliente.
 
